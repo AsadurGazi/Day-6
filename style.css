@@ -1,0 +1,90 @@
+body{
+    background-color: #eff1f7;
+
+}
+
+.create-account{
+    width: 500px;
+    margin: 100px auto;
+    background-color:#ffffff;
+    border-radius: 5px;
+    padding: 40px 20px;
+    box-shadow: 0 0 10px 0 rgb(190, 173, 173);
+    
+}
+.create-accountn h1{
+    font-size: 40px;
+}
+.create-account .col-2 {
+    display: flex;
+    gap: 20px;
+}
+.create-account .input-group input {
+    width: 95%;
+    padding: 13px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    border-radius: 3px;
+    outline: 0;
+}
+.create-account .input-group .col-3 {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.create-account .col-3 > div {
+    width: 33.33%;
+}
+.create-account .input-group select {
+    width: 100%;
+    padding:13px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: unset;
+}
+.create-account .input-group label{
+    display: block;
+    margin: 15px 0 5px 0;
+    color: #333;
+}
+.create-account .input-group .gender {
+    border: 1px solid rgb(181, 159, 159);
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    width: 33.33%;
+}
+.create-account .input-group .gender {
+    display: inline-block;
+    margin: 0;
+}
+.create-account .input-group input[type="radio"]{
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    position: relative;
+    top: 2px;
+
+}
+.create-account .trams-condition {
+    margin: 15px 0px 20px 0px;
+}
+.create-account p{
+    color: rgb(17, 2, 2);
+    font-size: 17px;
+    line-height: 19px;
+    margin-bottom: 30px;
+
+}
+.create-account .signup-btn button{
+    width: 50%;
+    margin: auto;
+    background-color: #22e74c;
+    color: hsl(0, 33%, 98%);
+    display: block;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 15px;
+    cursor: not-allowed;
+}
